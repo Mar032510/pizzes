@@ -22,6 +22,7 @@
                 }
             }
             echo "El preu és $pvp € (IVA inclòs)<br>";
+            echo date("l jS \of F Y h:i:s A") . "<br>";
             // exit(0);
         }
         echo "<br>";
